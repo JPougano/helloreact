@@ -1,0 +1,78 @@
+:root{
+    --navbar-color: #21222A;
+    --main-color: #282D35;
+    --react-color: #61DAFB;
+    --text-color: #DEEBF8;
+}
+/* #33373E */
+
+*{
+    margin: 0;
+}
+body{
+
+    box-sizing: border-box;
+}
+.app-container{
+    margin: 0 auto;
+    width: 550px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navbar styling */
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--navbar-color);
+    padding: 1.5rem 1rem;
+}
+
+.navbar-subcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+.navbar-logo{
+    width: 40px;
+}
+
+.navbar-lable{
+    color: var(--react-color);
+}
+
+.course-name{
+    color: var(--text-color);
+}
+
+/* Main styling */
+
+.main-container{
+    background-color: var(--main-color);
+    padding: 3rem;
+    color: var(--text-color);
+    background-image: url("./images/Group.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.main-title{
+    margin-bottom: 2rem;
+}
+
+.main-list{
+    line-height: 2rem;
+}
+
+.main-list-item::marker{
+    color: var(--react-color);
+    font-size: 30px;
+}
+
+.main-react-logo{
+    position: relative;
+}
